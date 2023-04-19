@@ -1,0 +1,111 @@
+.navLabel{
+font-family: "trebuchet ms";
+font-size: 20px;
+font-weight: normal;
+line-height: 20px;
+font-style: normal;
+text-align: left;
+&:hover{
+    color: #ffffff;
+}
+}
+
+.active{
+    color: #ffffff;
+}
+
+.inactive{
+    color:#afafaf;
+}
+
+.label_h1{
+font-family: "trebuchet ms";
+font-size: 79px;
+font-weight: bold;
+line-height: 79px;
+font-style: normal;
+text-align: left;
+}
+
+.light{
+    color:#ffffff;
+    display: block;
+}
+
+.primary{
+    color:#EEB609;
+    font-size: 70px;
+}
+
+.primaryBordered{
+    padding-left: 10px;
+    font-size: 70px;
+    text-shadow: 0 0 3px #EEB609, 0 0 5px #EEB609;
+    color:#000;
+}
+
+.label_text{
+font-weight: normal;
+font-style: normal;
+text-align: left;
+color: #afafaf;
+}
+
+.normal{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.small{
+    line-height: 22px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.big{
+    line-height: 52px;
+    font-size: 52px;
+}
+
+.primary_big{
+    color:#EEB609;
+    margin-left: 15px;
+}
+
+.label_poppins{
+font-family: "poppins";
+font-weight: bold;
+font-style: normal;
+text-align: left;
+color: #282728;
+}
+.large{
+font-size: 194px;
+line-height: 194px;
+
+}
+
+.larger{
+    font-size: 217px;
+    line-height: 209px;
+}
+
+.primary_larger{
+    color:#EEB609;
+}
+
+.paddLeft{
+    margin-left: 50px;
+}
+
+.very_large{
+    line-height: 303px;
+    font-size: 303px;
+}
+
+.shadow{
+    color: #ffffff;
+    text-shadow: 0 0 3px #282728,0 0 5px #282728;
+}
+
+

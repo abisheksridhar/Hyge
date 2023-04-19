@@ -1,0 +1,30 @@
+.navBar{
+max-width: 100vw;
+opacity: .95;
+height: 126px;
+padding:0 4.6%;
+border-color: #000000;
+border-width: 1px;
+border-style: dashed;
+background: #000000;
+background: linear-gradient(180deg, 
+#000000 0.00%, 
+#000000 100.00%);
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap:2rem;
+.siteLogo{
+    width: 236px;
+    height: 96px;
+}
+.navPages{
+    display: flex;
+    gap:60px;
+    color:#ffffff;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+}
+

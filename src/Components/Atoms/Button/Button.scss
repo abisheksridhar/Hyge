@@ -1,0 +1,130 @@
+.borderRounded{
+font-family: "trebuchet ms";
+height: 67px;
+min-width: 144px;
+border-radius: 75px;
+border-color: #afafaf;
+border-width: 1px;
+border-style: solid;
+font-size: 18px;
+font-weight: bold;
+}
+
+.dark{
+    color:#fff;
+    background: linear-gradient(to left, #000 50%, #EEB609 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    &:hover{
+        background-position: left ;
+        color:#000;
+    }
+    &:hover{
+        background-color: #fff;
+        color:#000;
+    }
+}
+
+.btnlight{
+    width:210px;
+    color:#000;
+    background: linear-gradient(to left, #ffffff 50%, #EEB609 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    &:hover{
+        background-position: left ;
+        color:#000;
+    }
+}
+
+.btnPrimary{
+    width:210px;
+    color:#000;
+    background: linear-gradient(to left,  #EEB609 50%,#ffffff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    &:hover{
+        background-position: left ;
+        color:#000;
+    }
+}
+
+.roundButton{
+    width: 71px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left:10px;
+}
+
+.lightBtn{
+    background: linear-gradient(to left, #EEB609 50%, #ffffff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    &:hover{
+        background-position: left ;
+        color:#000;
+    }
+}
+
+.primaryBtn{
+    background: linear-gradient(to left, #ffffff 50%, #EEB609 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    &:hover{
+        background-position: left ;
+        color:#000;
+    }
+}
+
+.opaque{
+    background-color: rgba(250,250,250,0.15);
+    border: none;
+    img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.infoButton{
+    width: 350px;
+    height: 100px;
+    font-family: "trebuchet ms";
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    font-style: normal;
+    text-align: center;
+    border-radius: 75px;
+    border: 1px solid #555;
+}
+
+.black{
+    background-color: #000;
+    color: #fff;
+}
+
+.grey{
+    background-color: #afafaf;
+    color: #fff;
+}
+
+.white{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.roundInfoButton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left:10px;
+    border: 1px solid;
+}
+
+.primary_background{
+    background-color: #EEB609;
+    border: none;
+}

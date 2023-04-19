@@ -1,0 +1,29 @@
+.knowTheHyge{
+    padding: 0 4.5%;
+    .infoPanel{
+        position: relative;
+        .buttonPanel{
+            width:inherit;
+            display: flex;
+            align-items: center;
+        }
+        .alignLeft{
+            justify-content:flex-start;
+        }
+        .alignRight{
+           justify-content: flex-end;
+        }
+        .path{
+            width:400px;
+            height: 775px;
+            position: absolute;
+            top: 0;
+            right: 500px;
+        }
+    }
+    .tick{
+        width: 40px;
+        height: 40px;
+    }
+
+}
