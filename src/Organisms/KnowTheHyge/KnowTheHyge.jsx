@@ -20,7 +20,6 @@ const KnowTheHyge = () => {
         }
     }
 
-    console.log(selectedIndex);
 
     const getByText=(id)=>{
         if(selectedIndex.indexOf(id) === -1){
@@ -45,7 +44,7 @@ const KnowTheHyge = () => {
                 <Button buttonClass={"roundInfoButton" } buttonText={getByText(index)} onButtonClick={()=>{onInfoButtonClick(index)}}></Button>
             </div>)
         })}
-     <img src={Path} alt='img' className='path'></img>
+
       </div>
     </div>
   )
