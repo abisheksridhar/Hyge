@@ -37,7 +37,7 @@ const KnowTheHyge = () => {
         <br />
       <Label labelText={"difference"} styleClass={"label_poppins very_large shadow"}></Label>
 
-      <div className="infoPanel">
+      {/* <div className="infoPanel">
         {infoButtons?.map((buttons,index)=>{
             return(<div className={"buttonPanel " + (index % 2 === 0 ? "alignLeft" : "alignRight")}>
                 <Button buttonClass={selectedIndex?.indexOf(index) === -1 ? "infoButton "+buttons.color : "infoButton primary_background" } buttonText={buttons.text} onButtonClick={()=>{onInfoButtonClick(index)}}></Button>
@@ -45,7 +45,7 @@ const KnowTheHyge = () => {
             </div>)
         })}
 
-      </div>
+      </div> */}
     </div>
   )
 }
